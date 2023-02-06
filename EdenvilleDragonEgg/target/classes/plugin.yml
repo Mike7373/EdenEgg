@@ -1,0 +1,5 @@
+name: EdenvilleDragonEgg
+version: '1.0'
+main: edenmine.mike.edenvilledragonegg.Main
+api-version: 1.19
+authors: [ Mike73 ]
