@@ -105,16 +105,4 @@ public class EventListener implements Listener {
             e.setCancelled(true);
         }
     }
-
-    @EventHandler
-    public void onEntityExplode(EntityExplodeEvent e){
-        if(e.blockList().size() > 0){
-            for(Block b : e.blockList().){
-                if(b.getType() == Material.DRAGON_EGG){
-                    e.blockList().remove(b);
-                }
-            }
-        }
-    }
-
 }
